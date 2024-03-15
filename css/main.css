@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/*navbar*/
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 60px;
+}
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul il a {
+    padding: 0.5rem;
+}
+#navbar ul il a:hover {
+    background: #b00707;
+    border-radius: 10px; 
+}
+/*home section*/
+
+#home {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+   padding: 2rem
+}
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100% ;
+    border: #b00707 solid 5px;
+}
+#home a {
+    color:black;
+    margin-top:  1.25rem;
+    background-color: #b00707;
+    padding: 0.8rem 1.50rem;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+}
+#home a:hover { 
+    color:black;
+    background-color: #660505;
+    border: 3px solid #b00707;
+    
+}
+#training {
+    color: #fff;
+    padding: 20px;
+    margin: 100px;
+    border: #660505 solid 3px;
+    border-radius: 20px;
+}
+#training .item {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#training .Online{
+    background-color:#660505;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+#training .Online:hover {
+    background-color: #b00707;
+    opacity: 0.8;
+}
+#courses {
+    color: #333;
+    padding: 1rem;
+  }
+  .courses {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  .courses .course {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .courses .course .course-image {
+    margin-right: 0.5rem;
+    position: relative;
+  }
+  .courses .course .course-image img {
+    border-radius: 5px;
+    border: #660505 solid 4px;
+  }
+  .courses .course .course-image span {
+    background: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+  }
+  .courses .course .course-info .title {
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+  .courses .course .course-info .description {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+  }
+  .courses .course .course-info .instructor {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+  }
+  .courses .course .course-info .rating {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+  }
+  #contact {
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  #contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+    
